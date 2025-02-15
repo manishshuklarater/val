@@ -1,0 +1,27 @@
+{
+  "name": "will-you-be-my-valentine",
+  "version": "0.0.1",
+  "private": true,
+  "homepage": "https://manishshuklarater.github.io/val/",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.6",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.1.1",
+    "postcss": "^8.5.2",
+    "tailwindcss": "^4.0.6",
+    "vite": "^5.1.0"
+  }
+}
